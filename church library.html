@@ -8,7 +8,8 @@
         <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
         rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="style.css">
+        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"
+        rel="stylesheet" type="text/css">
     </head>
     
     <body>
@@ -21,25 +22,23 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><span>Brand</span></a>
+                    <a class="navbar-brand" href="church library.html"><span>Brand</span></a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">
+                            <i class="fa fa-1x fa-2x fa-search pull-left text-primary"></i>
+                        </button>
+                    </form>
                     <ul class="nav navbar-nav navbar-right">
                         <li class="active">
-                            <a href="#">Home</a>
+                            <a href="church library.html">Home</a>
                         </li>
                         <li>
                             <a href="#">Contacts</a>
-                        </li>
-                        <li>
-                            <form class="navbar-form navbar-left" role="button">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Search">
-                                </div>
-                                <button type="submit" class="btn btn-default">
-                                    <i class="fa fa-1x fa-2x fa-fw fa-search text-primary"></i>
-                                </button>
-                            </form>
                         </li>
                     </ul>
                 </div>
@@ -50,7 +49,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="jumbotron">
-                            <h1 class="text-center text-primary">Introduction</h1>
+                            <h1 class="text-center">Introduction</h1>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
                                 ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
                                 dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
@@ -58,8 +57,9 @@
                                 Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In
                                 enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
                                 felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
-                                elementum semper nisi.</p>
-                            <a class="pull-right btn btn-primary btn-large form-search">Learn more</a>
+                                elementum semper nisi.Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                elit. Aenean commodo ligula eget dolor.</p>
+                            <a class="btn btn-primary btn-large pull-right">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -68,19 +68,46 @@
         <div class="section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-md-offset-4">
-                        <form class="form-horizontal" role="form">
-                            <div class="form-group">
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="inputEmail3" placeholder="Search">
+                    <div class="col-md-12">
+                        <div class="section">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-offset-3 col-md-6">
+                                        <form role="form">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="search" class="form-control" placeholder="Search...">
+                                                    <span class="input-group-btn">
+                                                        <a class="btn btn-primary" type="submit">Search</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
-                                <div class="col-sm-2">
-                                    <button type="submit" class="btn btn-default" data-toggle="button">
-                                        <i class="fa fa-1x fa-2x fa-search pull-left text-primary"></i>
-                                    </button>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="section">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-md-4"></div>
+                                                                <div class="col-md-4">
+                                                                    <a class="btn btn-block btn-primary" href="advanceSearch.html">Advance Search</a>
+                                                                </div>
+                                                                <div class="col-md-4"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
